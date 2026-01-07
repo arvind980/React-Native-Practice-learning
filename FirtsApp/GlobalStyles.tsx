@@ -1,0 +1,99 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  heading: {
+    textAlign: 'center',
+    marginHorizontal: 12,
+    fontSize: 28,
+    marginTop: 28,
+    color: '#024d92',
+    fontWeight: '700',
+  },
+  desc: {
+    textAlign: 'center',
+    marginHorizontal: 30,
+    fontSize: 14,
+    marginTop: 12,
+    color: 'black',
+    fontWeight: '500',
+  },
+  lable: {
+    marginTop: 25,
+    textAlign: 'center',
+    fontSize: 12,
+    color: 'black',
+    fontWeight: '500',
+  },
+  link: {
+    color: '#024d92',
+    fontWeight: '700',
+    fontSize: 14,
+    marginLeft: 20,
+    marginRight: 20,
+    textAlign: 'center',
+  },
+  link1: {
+    width: '82%',
+    textAlign: 'right',
+    color: '#024d92',
+    fontWeight: '700',
+    fontSize: 14,
+    marginTop: 12,
+  },
+  textfield: {
+    height: 48,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginTop: 20,
+    marginLeft: 20,
+    marginRight: 20,
+    paddingLeft: 10,
+    paddingRight: 10,
+    borderRadius: 8,
+    color: 'black',
+    width: '80%',
+    fontSize: 18,
+    fontWeight: '500',
+  },
+  button: {
+    marginTop: 50,
+    width: '90%',
+    backgroundColor: '#024d92',
+    borderRadius: 12,
+    height: 50,
+    justifyContent: 'center',
+  },
+  buttonTitle: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 18,
+    textAlign: 'center'
+  }
+  ,
+  socialContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 16,
+  },
+  socialButton: {
+    width: 30,
+    height: 30,
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginHorizontal: 8,
+    marginBottom: 30,
+  },
+  socialText: {
+    color: 'white',
+    fontWeight: '700',
+    fontSize: 16,
+  }
+});
