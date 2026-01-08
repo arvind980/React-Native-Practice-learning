@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './GlobalStyles'
 import { View, Text, StyleSheet, Image, TextInput, TouchableOpacity } from 'react-native';
 

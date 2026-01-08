@@ -7,6 +7,12 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  container1: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+  },
   heading: {
     textAlign: 'center',
     marginHorizontal: 12,
@@ -81,15 +87,15 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 16,
+    marginBottom: 30,
   },
   socialButton: {
     width: 30,
     height: 30,
-    borderRadius: 24,
+    borderRadius: 15,
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 8,
-    marginBottom: 30,
   },
   socialText: {
     color: 'white',
