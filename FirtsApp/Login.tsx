@@ -14,7 +14,7 @@ function Login({ navigation }: any) {
                 Forgot Password?
             </Text>
             <TouchableOpacity style={styles.button} activeOpacity={0.8} onPress={() => {
-                // TODO: handle login action
+                navigation.replace('AppTabs');
             }}>
                 <Text style={styles.buttonTitle}>Log In</Text>
             </TouchableOpacity>

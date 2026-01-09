@@ -14,7 +14,7 @@ function SignUp({ navigation }: any) {
             <Text style={style.link1} onPress={() => { navigation.navigate('ForgotPassword') }}>
                 Forgot password?
             </Text>
-            <TouchableOpacity style={style.button} activeOpacity={0.5} onPress={() => { }}>
+            <TouchableOpacity style={style.button} activeOpacity={0.5} onPress={() => { navigation.replace('AppTabs'); }}>
                 <Text style={style.buttonTitle} >Sign Up </Text>
             </TouchableOpacity>
             <Text style={style.lable} >Do't have an account? {" "}
